@@ -25,7 +25,7 @@ class Clock extends Component {
 
 	render() {
 		return (
-			<h2 className={this.props.attr}>{this.state.date.toLocaleTimeString()}</h2>
+			<h2 className="f2 ma3">{this.state.date.toLocaleTimeString()}</h2>
 		);
 	}
 }
